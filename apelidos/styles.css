@@ -1,0 +1,90 @@
+/* Estilo geral do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111; /* Fundo preto */
+    color: #f0f0f0; /* Texto em um cinza claro */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #c0c0c0; /* Prata */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra para dar profundidade */
+}
+
+/* Formulário */
+form {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo translúcido */
+    border: 1px solid #c0c0c0; /* Borda prata */
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto; /* Espaço em volta do formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra do formulário */
+}
+
+/* Estilo dos campos de entrada */
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #c0c0c0; /* Borda prata */
+    border-radius: 5px;
+    background-color: #222; /* Fundo escuro para os campos */
+    color: #f0f0f0; /* Texto claro */
+}
+
+/* Botão do formulário */
+button {
+    background-color: #c0c0c0; /* Fundo prata */
+    color: #111; /* Texto preto */
+    border: 1px solid #999; /* Borda um pouco mais escura */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Transição suave */
+    display: inline-block; /* Para garantir que o botão se comporte como um bloco */
+}
+
+button:hover {
+    background-color: #a0a0a0; /* Um pouco mais escuro ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse; /* As bordas colapsam juntas */
+    margin-top: 20px; /* Espaço acima da tabela */
+}
+
+th, td {
+    padding: 10px; /* Espaçamento interno das células */
+    border: 1px solid #c0c0c0; /* Borda prata */
+    text-align: center;
+}
+
+th {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo translúcido para cabeçalho */
+    color: #c0c0c0; /* Texto prata */
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05); /* Linhas pares com um leve fundo */
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Efeito ao passar o mouse */
+}
+
+/* Links */
+a {
+    color: #c0c0c0; /* Texto prata */
+    text-decoration: none; /* Sem sublinhado */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
