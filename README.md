@@ -1,6 +1,4 @@
-Claro! Aqui está um modelo de README bem estruturado para o seu projeto:
 
----
 
 # Apelidos de Gordo
 
